@@ -340,7 +340,30 @@ h6{
 }
 
 
-.project1{
+
+
+.waveapparel{
+    background: url("./image/wave.jpg") no-repeat 50% 50%;
+    background-size: cover;
+}
+
+
+.waveapparel::after{content: "Wave Apparel";
+    font-family: "Roboto Mono";
+    font-size: 36px;
+    position: relative;
+    color: #FFF;
+    display: block;
+    top: 8%;
+    left: -60%;
+    right:0;
+    bottom: 0;}
+
+
+
+
+
+    .project1{
     background: url("./image/js.png") no-repeat 50% 50%;
     background-size: cover;
     
@@ -419,6 +442,32 @@ h6{
     left: 90%;
     right: 0;
     bottom: 0;
+}
+
+
+
+
+
+.project5{
+    background: url("./image/adobe.jpg") no-repeat 50% 50%;
+    background-size: cover;
+    
+    
+
+}
+
+.project5::after{
+    content: "Premier Pro ";
+    font-family: "Roboto Mono";
+    font-size: 36px;
+    position: relative;
+    color: #FFF;
+    display: block;
+    top: 8%;
+    left: -60%;
+    right:0;
+    bottom: 0;
+
 }
 
 @media(max-width:768px){
@@ -636,3 +685,5 @@ textarea:focus {
     background-size: cover;
     
 }
+
+
